@@ -60,7 +60,7 @@ const OrderContainer = props => {
                 <div>Price</div>
               </li>
               {order.cartItems.length === 0 ? (
-                <div>Cart is empty</div>
+                <div>Cart</div>
               ) : (
                 order.cartItems.map(item => (
                   <li key={item.product}>

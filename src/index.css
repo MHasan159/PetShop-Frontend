@@ -44,7 +44,7 @@ button {
 
 .header {
   grid-area: header;
-  background-color: #33d1c4;
+  background-color: #045f66;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -100,7 +100,7 @@ a {
 }
 
 a:hover {
-  color: #161817;
+  color: #ee9817;
 }
 
 /* Home Screen */
