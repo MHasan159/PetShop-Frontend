@@ -22,8 +22,8 @@ body {
 
 .header {
   grid-area: header;
-  background-color: #203040;
-  color: #ffffff;
+  background-color: #456e47;
+  color: #a14949;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -127,7 +127,7 @@ a:hover {
 
 .sidebar {
   position: fixed;
-  background-color: #f0f0f0;
+  background-color: #9b1b1b;
   transform: translateX(-30rem);
   width: 30rem;
   height: 100%;

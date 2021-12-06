@@ -1,7 +1,7 @@
 {
   "name": "react-ecommerce-frontend",
   "version": "0.1.2",
-  "proxy": "https://react-widget-store-api.herokuapp.com/api/v1",
+  "proxy": "https://secret-hollows-47028.herokuapp.com/api/v1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

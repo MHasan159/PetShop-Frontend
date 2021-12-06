@@ -1,4 +1,4 @@
-const BASE_URL = 'https://react-widget-store-api.herokuapp.com/api/v1';
+const BASE_URL = 'https://secret-hollows-47028.herokuapp.com/api/v1';
 
 export const createOrder = order => dispatch => {
   fetch(`${BASE_URL}/orders`, {

@@ -45,7 +45,7 @@ function App() {
         <header className='header'>
           <div className='brand'>
             <button onClick={openMenu}>&#9776;</button>
-            <Link to='/'>Widget Store</Link>
+            <Link to='/'></Link>
           </div>
           <div className='header-links'>
             <Link to='/cart'>
@@ -68,7 +68,7 @@ function App() {
 
         {/* Category Section */}
         <aside className='sidebar'>
-          <h3>Shopping Categories</h3>
+          <h3>Shop by Categories</h3>
           <button className='sidebar-close-button' onClick={closeMenu}>
             X
           </button>
@@ -80,22 +80,27 @@ function App() {
             </li>
             <li>
               <button type='button' onClick={e => categoryHandler(e.target.innerText)}>
-                DeWalt
+               Toy
               </button>
             </li>
             <li>
               <button type='button' onClick={e => categoryHandler(e.target.innerText)}>
-                Craftsman
+              Surveillance
               </button>
             </li>
             <li>
               <button type='button' onClick={e => categoryHandler(e.target.innerText)}>
-                Stanley
+              Travel
               </button>
             </li>
             <li>
               <button type='button' onClick={e => categoryHandler(e.target.innerText)}>
-                Unknown
+              Feeding
+              </button>
+            </li>
+            <li>
+              <button type='button' onClick={e => categoryHandler(e.target.innerText)}>
+              Cleaning
               </button>
             </li>
           </ul>
@@ -120,7 +125,7 @@ function App() {
         </div>
 
         {/* Footer */}
-        <footer className='footer'>Copyright &#169; 2020 Tanner Townsend. All rights reserved.</footer>
+        {/* <footer className='footer'>Copyright &#169; 2020 Tanner Townsend. All rights reserved.</footer> */}
       </div>
     </BrowserRouter>
   );
