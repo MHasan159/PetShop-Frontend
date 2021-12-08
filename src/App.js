@@ -45,7 +45,7 @@ function App() {
         <header className='header'>
           <div className='brand'>
             <button onClick={openMenu}>&#9776;</button>
-            <Link to='/'>PetShop</Link>
+            <Link className = 'headerName'to='/'>PetShop</Link>
           </div>
           <div className='header-links'>
             <Link to='/cart'>
