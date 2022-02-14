@@ -660,8 +660,9 @@ button {
  } 
 
  a.headerName{
+   
    font-size: 30px;
-   background-color: #f5ebebb0 transparent;
+   color: rgb(34, 207, 219);
 }
 
  
@@ -676,3 +677,8 @@ color: blue;
 hr { display: block; height: 1px;
   border: 0; border-top: 1px solid #ccc;
   margin: 1em 0; padding: 0; }
+
+h2{
+  color: rgb(35, 107, 112);
+
+  }

@@ -73,11 +73,11 @@ function App() {
             X
           </button>
           <ul className='categories'>
-            <li>
+            {/* <li>
               <button type='button' onClick={e => categoryHandler(e.target.innerText)}>
                 All
               </button>
-            </li>
+            </li> */}
             <li>
               <button type='button' onClick={e => categoryHandler(e.target.innerText)}>
                Toy
